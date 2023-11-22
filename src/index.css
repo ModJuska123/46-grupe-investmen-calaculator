@@ -1,46 +1,72 @@
-* {
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
- 
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
 body {
-  margin: 0;
-  font-family: 'Quicksand', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Quicksand", sans-serif;
   background: radial-gradient(#303b37, #1a1f1d);
   color: #e1eeeb;
-  min-height: 100vh;
 }
 
-#heder img {
-  width: 1.5rem
+#main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
-#user-input {
-  background-color: aquamarine;
-  padding: 1rem;
-  max-width: 30rem;
-  margin: 2rem auto;
-  border-radius: 4px;
+#icon {
+  width: 200px;
 }
 
-.input-group {
-display:flex;
-justify-content: space-evenly;
-gap: 1rem;
+#input-box {
+  padding: 20px;
+  color: white;
+  background: rgb(46, 140, 110);
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  border-radius: 10px;
 }
 
-#eser-input label {
-  display: block;
-  margin-bottom: 0.25rem;
-  font-family:'Courier New', Courier, monospace;
-  font-size: 0.5rem;
-  font-weight: bold;
-  color: #fff;
+.input-container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 
-#user-input input {
+.input-container > input {
+  font-size: 1.5em;
+  padding: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+}
+
+#table {
+  margin-top: 10px;
   width: 100%;
-  padding: 0.5rem;
-  
+}
+
+#table th {
+  color: rgb(150, 210, 187);
+  text-align: right;
+}
+
+#table td {
+  font-size: 1.2em;
+  text-align: right;
+  padding: 10px 0;
 }
