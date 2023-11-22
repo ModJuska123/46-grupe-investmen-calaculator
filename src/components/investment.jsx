@@ -3,7 +3,7 @@
 // - initialInvestment: The initial investment amount
 // - annualInvestment: The amount invested every year
 // - expectedReturn: The expected (annual) rate of return
-// - duration: The investment duration (time frame)
+// - duration: The investment duration (time frame) 
 export function calculateInvestmentResults({
     initialInvestment,
     annualInvestment,
@@ -35,3 +35,5 @@ export function calculateInvestmentResults({
     minimumFractionDigits: 0,
     maximumFractionDigits: 0,
   });
+
+ 
