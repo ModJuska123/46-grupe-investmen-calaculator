@@ -2,7 +2,7 @@
 ## ⭐ About
 Welcome to my simple calculator for finance planning. This repository reflects my passion for creating dynamic and visually appealing web applications using React and CSS and JS.
 
-Site published at: https://modjuska123.github.io/46-grupe-investmen-calaculator/
+Site published at: https://github.com/ModJuska123/46-grupe-investmen-calaculator
 
 ## ⛳Project features/goals
 Github pages basic React (structure) and CSS (style) markdown desktop only.
