@@ -26,14 +26,14 @@ https://git-scm.com
 
 ## ⏳Installation:
 
-1. Clone this repository:
-```
-git clone https://github.com/ModJuska123/My-portfolio-project
-```
-
-2. Navigate into the project directory:
+1. Navigate into the project directory:
 ```
 cd Project
+```
+
+2. Clone this repository:
+```
+git clone https://github.com/ModJuska123/My-portfolio-project
 ```
 
 3. npm install
