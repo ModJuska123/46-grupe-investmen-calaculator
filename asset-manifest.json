@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/46-grupe-investmen-calaculator/static/css/main.b53e4c02.css",
-    "main.js": "/46-grupe-investmen-calaculator/static/js/main.3291b18c.js",
+    "main.js": "/46-grupe-investmen-calaculator/static/js/main.8c735f2d.js",
     "static/media/icon.png": "/46-grupe-investmen-calaculator/static/media/icon.f57bbdd3e554e4e410b8.png",
     "index.html": "/46-grupe-investmen-calaculator/index.html",
     "main.b53e4c02.css.map": "/46-grupe-investmen-calaculator/static/css/main.b53e4c02.css.map",
-    "main.3291b18c.js.map": "/46-grupe-investmen-calaculator/static/js/main.3291b18c.js.map"
+    "main.8c735f2d.js.map": "/46-grupe-investmen-calaculator/static/js/main.8c735f2d.js.map"
   },
   "entrypoints": [
     "static/css/main.b53e4c02.css",
-    "static/js/main.3291b18c.js"
+    "static/js/main.8c735f2d.js"
   ]
 }
